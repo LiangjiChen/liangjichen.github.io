@@ -3,8 +3,8 @@ title: Liangji's Blog
 SEOTitle: 陈良骥的博客 | Liangji's Blog
 header-img: img/home-bg.jpg
 email: rolandcljo@gmail.com
-description: "关于程序与设计、SCM、编程教育 | 陈良骥，Software Engineer，SCM | 这里是 @Liangji陈良骥 的个人博客，与你一起探索软件世界。"
-keyword: "陈良骥, Liangji's Blog, 博客, 个人网站, 互联网, Java, GoLang，SCM，CI&CD"
+description: "关于程序与设计、编程教育 | 陈良骥，Software Engineer | 这里是 @Liangji陈良骥 的个人博客，与你一起探索软件世界。"
+keyword: "陈良骥, Liangji's Blog, 博客, 个人网站, 互联网, Java, GoLang，CI&CD"
 url: "https://chenliangji.top"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -102,11 +102,4 @@ page-mathjax: false
 
 # Friends
 friends: [
-    {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-        title: "SCM: LiangjiChen",
-        href: "https://www.cnblogs.com/liangjichen/"
-    }
 ]

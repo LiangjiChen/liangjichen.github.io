@@ -1,12 +1,12 @@
 {
   "name": "陈良骥",
   "englishName": "Liangji Chen",
-  "title": "软件工程师 · SCM",
-  "tagline": "关注软件与设计、供应链管理与编程教育。在这里记录技术实践，也收藏日常好用的工具。",
+  "title": "软件工程师",
+  "tagline": "关注软件与设计、CI/CD 与编程教育。在这里记录技术实践，也收藏日常好用的工具。",
   "email": "rolandcljo@gmail.com",
   "avatar": "/images/avatar.jpg",
   "bio": [
-    "你好，我是陈良骥（Liangji Chen），一名软件工程师，长期关注软件工程与设计、供应链管理（SCM）以及编程教育。",
+    "你好，我是陈良骥（Liangji Chen），一名软件工程师，长期关注软件工程与设计、CI/CD 以及编程教育。",
     "这个网站是我的数字花园：用 Vue 与 Java 搭建，分成了个人介绍、工具箱和博客三个部分。我会在这里记录 Java、Go、CI/CD 与 Web 开发中的实践和思考。"
   ],
   "socials": [
@@ -26,17 +26,13 @@
     },
     {
       "group": "领域",
-      "items": ["SCM", "供应链系统", "Web 开发", "编程教育"]
+      "items": ["Web 开发", "系统设计", "CI/CD", "编程教育"]
     }
   ],
   "focus": [
     {
       "title": "软件工程与设计",
       "description": "关注可维护的系统设计、清晰的代码结构与工程化实践，让软件长期保持可演进。"
-    },
-    {
-      "title": "供应链管理（SCM）",
-      "description": "在供应链业务中落地软件系统，连接计划、采购、库存与履约等环节。"
     },
     {
       "title": "CI / CD 与 DevOps",

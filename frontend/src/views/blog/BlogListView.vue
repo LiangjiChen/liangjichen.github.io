@@ -26,7 +26,7 @@ onMounted(async () => {
     <div class="page-head">
       <p class="page-kicker">Blog</p>
       <h1 class="page-title">博客</h1>
-      <p class="page-desc">记录软件工程、SCM 与编程教育中的实践与思考。</p>
+      <p class="page-desc">记录软件工程、CI/CD 与编程学习中的思考。</p>
     </div>
 
     <p v-if="error" class="state state-error">博客加载失败：{{ error }}</p>
