@@ -1,5 +1,6 @@
-import { request } from './client'
+import { getStrategy } from './client'
 
-export function fetchTools() {
-  return request('/toolbox/tools')
+export async function fetchTools() {
+  const s = getStrategy()
+  return s.fetchJson('/toolbox/tools', '/toolbox/tools.json')
 }

@@ -1,5 +1,6 @@
-import { request } from './client'
+import { getStrategy } from './client'
 
-export function fetchProfile() {
-  return request('/intro/profile')
+export async function fetchProfile() {
+  const s = getStrategy()
+  return s.fetchJson('/intro/profile', '/intro/profile.json')
 }
