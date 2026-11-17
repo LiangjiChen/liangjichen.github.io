@@ -28,7 +28,7 @@ onMounted(async () => {
           <p class="hero-role">{{ profile.title }}</p>
           <p class="hero-tagline">{{ profile.tagline }}</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#about">了解我</a>
+            <RouterLink class="btn btn-primary" to="/about">了解我</RouterLink>
             <RouterLink class="btn btn-ghost" to="/blog">阅读博客</RouterLink>
           </div>
         </div>
@@ -40,7 +40,7 @@ onMounted(async () => {
       <section id="about" class="section">
         <div class="section-head">
           <h2 class="section-title">关于我</h2>
-          <span class="section-note">{{ profile.englishName }}</span>
+          <RouterLink to="/about" class="section-note">完整介绍 →</RouterLink>
         </div>
         <div class="bio">
           <p v-for="paragraph in profile.bio" :key="paragraph">{{ paragraph }}</p>

@@ -298,6 +298,14 @@ button {
   font-size: 14px;
 }
 
+a.section-note {
+  transition: color 0.18s ease;
+}
+
+a.section-note:hover {
+  color: var(--accent-strong);
+}
+
 .bio p {
   max-width: 760px;
   color: #3d3a34;

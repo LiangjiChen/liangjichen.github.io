@@ -6,6 +6,7 @@ const route = useRoute()
 
 const navItems = [
   { to: '/', label: '个人介绍' },
+  { to: '/about', label: '关于我' },
   { to: '/toolbox', label: '工具箱' },
   { to: '/blog', label: '博客' }
 ]
