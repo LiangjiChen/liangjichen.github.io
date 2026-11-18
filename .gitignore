@@ -1,13 +1,7 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
-.DS_Store
-
-# Vue / Vite
+# Node
 node_modules
-frontend/dist
+dist
 
-# Java / Maven
-backend/target
+# Editor / OS
+.DS_Store
+*.log

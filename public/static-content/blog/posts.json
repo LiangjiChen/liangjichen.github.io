@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "hello-2020",
+    "title": "Hello 2020",
+    "summary": "博客的第一篇文章：Hello World，我是陈良骥。",
+    "date": "2020-09-16",
+    "tags": ["随笔"],
+    "file": "hello-2020.md"
+  },
+  {
+    "slug": "rebuild-site-with-vue-and-spring-boot",
+    "title": "用 Vue 3 重写个人网站",
+    "summary": "把原来的 Jekyll 博客改造成纯前端的 Vue 3 单页应用，内容随构建产物一起发布。",
+    "date": "2026-11-17",
+    "tags": ["Vue", "前端", "静态站点"],
+    "file": "rebuild-site-with-vue-and-spring-boot.md"
+  }
+]
